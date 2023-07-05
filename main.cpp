@@ -7,8 +7,15 @@ int main() {
 	cout << "Enter A and B: ";
 	double a, b;
 	cin >> a >> b;
-	cout << "a+b=" << a + b << endl;
-	cout << "a-b=" << a - b << endl;
-	cout << "a*b=" << a * b << endl;
-	cout << "a / b=" << a / b << endl;
+	cout << "A + B = " << a + b << '\n'
+		<< "A - B = " << a - b << '\n'
+		<< "A * B = " << a * b << '\n'
+		<< "A / B = " << a / b << '\n';
+	if (a > b) {
+		cout << a;
+	}
+	else {
+		cout << b;
+	}
+	return 0;
 }
