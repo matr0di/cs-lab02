@@ -18,6 +18,14 @@ int main() {
 		cout << a;
 	}
 	if (a > b) {
+
+		cout << b;
+	}
+	else {
+		cout << a;
+	}
+	return 0;
+
 		cout << a;
 	}
 	else {
